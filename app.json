@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Rhema Prayer App",
+    "description": "Your Number One Prayer And Scripture App",
+    "slug": "rhema-prayer-app",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.8.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#6C24AA"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "986d6990-3e42-4e32-8acc-707e91285bc0"
+      }
+    },
+    "android": {
+      "package": "com.remedyexgratia.rnmaterialkitfree",
+        "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+      
+    }
+  }
+}
